@@ -73,8 +73,7 @@ python ensembl_gtf2bed.py Sorghum_bicolor.58.gtf Sorghum_bicolor
 ```
 This will produce protein-coding, non-coding, mirRNA, and snoRNA bed files for Slncky.
 
-7. The pipeline is ready for execution \
-Run the following command to print help
+7. The pipeline is ready for execution. Run the following command to print help
 ```
 nextflow run ~/Path_to_LncRAnalyzer-nf/main.nf --help
 ```
