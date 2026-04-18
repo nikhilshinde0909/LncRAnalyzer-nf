@@ -111,7 +111,7 @@ nextflow run ~/Path_to_LncRAnalyzer-nf/main.nf -c data.groovy -profile apptainer
 nextflow run ~/Path_to_LncRAnalyzer-nf/main.nf -c data.groovy -profile wave --threads 16 --memory 40.GB
 ```
 
-## Thanks for using LncRAnalyzer
+## Thanks for using LncRAnalyzer-nf
 
 # Cite:
 Nikhil, S., Shaik Mohideen, H., & Natesan Sella, R. (2025). LncRAnalyzer: a robust workflow for long non-coding RNA discovery using RNA-Seq. The Plant journal : for cell and molecular biology, 124(1), e70509. https://doi.org/10.1111/tpj.70509
