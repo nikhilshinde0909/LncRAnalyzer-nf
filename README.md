@@ -26,7 +26,7 @@ cd LncRAnalyzer
 ```
 bash install_pipeline_tools.sh
 ```
-This will install all required tools in the local environment.
+This will install all required software and tools in the local environment.
 
 4. Pipeline is ready to execute, prepare your inputs and data.groovy in the working directory
 
