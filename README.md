@@ -65,7 +65,7 @@ python Liftover.py <threads> <genome> <org_name> <genome_related_species> <rel_s
 eg.
 python Liftover.py 16 Sorghum_bicolor.dna.toplevel.fa Sbicolor Zea_mays.dna.toplevel.fa Zmays near
 ```
-We also provide an additional script which will take ensembl gtf and produce bed files to run Slncky as follows
+We also provide an additional script which will take Ensembl GTF and produce bed files to run Slncky as follows
 ```
 python ensembl_gtf2bed.py <ensembl_gtf> <output_prefix>
 eg.
@@ -89,23 +89,23 @@ nextflow run ~/Path_to_LncRAnalyzer-nf/main.nf -c data.groovy -profile standard 
 ```
 
 ## Containerized environment
-1. Run the following commands to execute LncRAnalyzer-nf with pre-built docker image
+1. Run the following commands to execute LncRAnalyzer-nf with a pre-built Docker image
 ```
 nextflow run ~/Path_to_LncRAnalyzer-nf/main.nf -c data.groovy -profile docker --threads 16 --memory 40.GB
 ```
-2. Run the following commands to execute LncRAnalyzer-nf with pre-built singularity image
+2. Run the following commands to execute LncRAnalyzer-nf with a pre-built Singularity image
 ```
 nextflow run ~/Path_to_LncRAnalyzer-nf/main.nf -c data.groovy -profile singularity --threads 16 --memory 40.GB
 ```
-3. Run the following commands to execute LncRAnalyzer-nf with podman
+3. Run the following commands to execute LncRAnalyzer-nf with Podman
 ```
 nextflow run ~/Path_to_LncRAnalyzer-nf/main.nf -c data.groovy -profile podman --threads 16 --memory 40.GB
 ```
-4. Run the following commands to execute LncRAnalyzer-nf with apptainer
+4. Run the following commands to execute LncRAnalyzer-nf with Apptainer
 ```
 nextflow run ~/Path_to_LncRAnalyzer-nf/main.nf -c data.groovy -profile apptainer --threads 16 --memory 40.GB
 ```
-5. Run the following commands to execute LncRAnalyzer-nf with wave
+5. Run the following commands to execute LncRAnalyzer-nf with Wave
 ```
 nextflow run ~/Path_to_LncRAnalyzer-nf/main.nf -c data.groovy -profile wave --threads 16 --memory 40.GB
 ```
@@ -119,5 +119,5 @@ Nikhil, S., Shaik Mohideen, H., & Natesan Sella, R. (2025). LncRAnalyzer: a robu
 The performance of coding potential prediction using CPAT, CPC2, LGC, RNAsamba, and FEELnc was estimated with 50 RNA-Seq accessions of sorghum cultivar PR22 from past studies [https://doi.org/10.1186/s12864-019-5734-x] 
 
 <p align="center">
-  <img src="https://gitlab.com/nikhilshinde0909/LncRAnalyzer/raw/main/bin/ROC.png" width=70% height=70%>
+  <img src="https://gitlab.com/nikhilshinde0909/LncRAnalyzer-nf/raw/main/bin/ROC.png" width=70% height=70%>
 </p>
